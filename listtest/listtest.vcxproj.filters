@@ -45,6 +45,12 @@
     <ClInclude Include="FListCtrl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ReceivedCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="listtest.cpp">
@@ -60,6 +66,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceivedCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerWnd.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
