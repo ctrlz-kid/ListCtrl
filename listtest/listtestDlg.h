@@ -5,6 +5,7 @@
 #pragma once
 
 #include "SkinListCtrl.h"
+#include "FListCtrl.h"
 
 
 // ClisttestDlg ¶Ô»°¿ò
@@ -32,5 +33,5 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 
-	CSkinListCtrl m_list;
+	FListCtrl m_list;
 };

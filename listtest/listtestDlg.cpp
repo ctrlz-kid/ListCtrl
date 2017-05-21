@@ -100,13 +100,18 @@ BOOL ClisttestDlg::OnInitDialog()
 	// TODO: 在此添加额外的初始化代码
 
 	m_list.SubclassDlgItem(IDC_LIST1, this);
+	m_list.SetExtendedStyle(LVS_EX_FULLROWSELECT);
 
 	m_list.InsertColumn(0, "ColA", LVCFMT_LEFT, 300);
 	m_list.InsertColumn(1, "ColB", LVCFMT_LEFT, 300);
 
 	m_list.InsertItem(0, "item 1");
-	m_list.InsertItem(0, "item 2");
-	m_list.InsertItem(0, "item 3");
+	m_list.InsertItem(1, "item 2");
+	m_list.InsertItem(2, "item 3");
+	
+	m_list.SetItemText(0, 1, "item 1-2");
+	m_list.SetItemText(1, 1, "item 2-2");
+	m_list.SetItemText(2, 1, "item 3-2");
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
